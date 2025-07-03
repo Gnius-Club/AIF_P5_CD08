@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 8: Cometa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 8: Cometa</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender la privacidad digital avanzada.</li>
+                                        <li>Explorar prácticamente las configuraciones de privacidad en plataformas educativas y simuladas.</li>
+                                        <li>Conocer las configuraciones de privacidad en apps educativas.</li>
+                                        <li>Ajustar la visibilidad en perfiles.</li>
+                                        <li>Entender los permisos de aplicaciones.</li>
+                                        <li>Reconocer las consecuencias de una mala configuración.</li>
+                                        <li>Evaluar riesgos de configuraciones abiertas.</li>
+                                        <li>Aplicar configuraciones de privacidad avanzadas y comprender su importancia.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express: La Auditoría de Privacidad</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Realización en parejas de una "Auditoría de Privacidad" de un perfil (real o simulado) con lista de verificación.</li>
+                                        <li>Elaboración de un "Informe de Recomendaciones" con soluciones.</li>
+                                        <li>Creación individual de un "Principio de Privacidad" (Tweet de Aprendizaje).</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 7 (Bienestar Digital) mediante un reto directo y ágil.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: Duelo Relámpago.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Vamos a iniciar con un análisis rápido. La dinámica es un Duelo Relámpago sobre la misión anterior. Uno de ustedes lanza una pregunta directa a un compañero sobre bienestar digital. Si responde correctamente, toma el control y lanza la siguiente. <br>(Preguntas Guía si la dinámica se detiene):<br>- ‘¿Qué diferencia hay entre una actividad que drena energía y una que la recarga?’<br>- ‘Menciona una estrategia de autocuidado que se discutió.’”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Realiza una breve reflexión guiada para cambiar el foco del bienestar emocional a la seguridad técnica.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Bien. La misión anterior se centró en observar nuestro mundo interior. Hoy, la perspectiva cambia. El autocuidado también implica proteger activamente nuestra información. Un cometa deja una estela visible a millones de kilómetros; nuestra información, si no la gestionamos, también. Nos convertiremos en arquitectos de nuestra privacidad.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 20 minutos</h2>
+                <p>Explorar de forma individual los conceptos de permisos, configuraciones de visibilidad y las consecuencias de una privacidad débil.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 0 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Cometa.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada los enfrentará a decisiones sobre permisos de aplicaciones y visibilidad de perfiles. Analicen cada situación con atención. La clave de activación de hoy es: Misión Cometa ☄️. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express: La Auditoría de Privacidad ⏰ 10 minutos</h2>
+                <p>Contextualizar la necesidad de una revisión crítica y técnica de las configuraciones de privacidad en perfiles reales.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express: La Auditoría de Privacidad ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: La Auditoría de Privacidad en Parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Vamos a aplicar lo aprendido en un entorno real. La mejor forma de entender la teoría es ponerla a prueba. <br>Este es su reto: En parejas, se convertirán en auditores de privacidad. Su misión es analizar un perfil público y evaluar sus configuraciones de seguridad. Pueden elegir el perfil de un artista, un influencer que ambos sigan, o si se sienten cómodos y lo acuerdan, pueden revisar uno de sus propios perfiles de forma privada entre ustedes. La elección es suya.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express: La Auditoría de Privacidad ⏰ 4 minutos</h3>
+                            <p>Pide a las parejas que usen la lista de verificación de 3 puntos clave para analizar el perfil elegido, marcando como Seguro (Verde 🟢) o Riesgo (Rojo 🔴).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Su primera tarea es revisar el perfil con ojos de auditor. Usen esta lista de verificación: <br>1. Visibilidad y Audiencia: ¿Las publicaciones son públicas? ¿Quién puede comentar o etiquetar? <br>2. Exposición de Datos: ¿Se comparte información sensible sin necesidad (ubicaciones exactas, detalles personales en la bio)? <br>3. Huella Digital Pasada: Revisen publicaciones antiguas. ¿Hay algo que hoy podría ser problemático o que ya no los representa? <br>Marquen cada punto como Seguro (Verde 🟢) o Riesgo (Rojo 🔴). Tienen 4 minutos.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express: La Auditoría de Privacidad ⏰ 2 minutos</h3>
+                            <p>Pide a las parejas que redacten su "informe" detallando por qué marcaron algo como riesgo y qué configuración lo solucionaría, dando la instrucción precisa.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, preparen su informe de recomendaciones. Para cada punto que marcaron en rojo, escriban la solución técnica. Por ejemplo: ‘Riesgo: Etiquetado abierto en fotos. Recomendación: Activar la revisión de etiquetas antes de que aparezcan en el perfil’. Den la instrucción precisa. Tienen 2 minutos.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge Express: La Auditoría de Privacidad ⏰ 2 minutos</h3>
+                            <p>Invita a las parejas a compartir un hallazgo general o una recomendación útil sin exponer detalles personales.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Es buena idea compartir lo que piensan. Sin mencionar el perfil que analizaron, ¿alguien quiere compartir un riesgo común que hayan encontrado o una recomendación que crean que todos deberíamos aplicar? Escuchar otras perspectivas siempre aporta.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en un principio personal sobre el control activo de la privacidad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Para cerrar, anoten una idea que se quieran llevar. Una frase que resuma su principio fundamental para proteger su información.<br>Ejemplo del maestro: La privacidad no es un accidente, es un diseño. Yo soy el arquitecto. #PrivacidadPorDiseño<br>Piensen en cómo podrían aplicar esto en otra situación. Eso es lo que hace que valga la pena.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que compartan su frase con un compañero y escuchen su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su frase con la persona de al lado. Escuchen su idea. ¿En qué se parecen? ¿Qué pueden aprender de su perspectiva? Fortalecer nuestra seguridad es un trabajo en equipo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy pasaron de ser usuarios a ser arquitectos de su propia fortaleza digital. Entendieron que la mejor protección no es la que se espera, sino la que se construye con intención y conocimiento. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
